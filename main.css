@@ -4,10 +4,11 @@ body {
     background: #000000;
 }
 
-p {
-    h1{
+ h1{
         font-size: 150px
     }
+p {
+   
     font-size: 8px;
     line-height: 8px;
     text-align: justify;
@@ -18,3 +19,4 @@ p {
     color: rgba(225, 225, 225, 0);
     -webkit-background-clip: text;
 }
+
