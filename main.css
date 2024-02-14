@@ -4,13 +4,10 @@ body {
     background: #000000;
 }
 
- h1{
-        font-size: 150px;
-    }
 p {
-   
-    font-size: 8px;
-    line-height: 8px;
+    position: relative;
+    font-size: 16px;
+    line-height: 1.5;
     text-align: justify;
     background: url('pexels-secret-garden-931177.jpg') no-repeat center;
     background-size: cover;
@@ -20,3 +17,12 @@ p {
     -webkit-background-clip: text;
 }
 
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    margin: 0;
+    color: white; /* Set the color to contrast with the background */
+}
